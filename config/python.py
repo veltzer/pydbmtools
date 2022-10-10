@@ -4,9 +4,12 @@ console_scripts = [
 dev_requires = [
     "pyclassifiers",
     "pypitools",
-    "pydmt",
     "Sphinx",
     "black",
+]
+make_requires = [
+    "pymakehelper",
+    "pydmt",
 ]
 install_requires = [
     "pytconf",
@@ -17,6 +20,5 @@ test_requires = [
     "pytest-cov",
     "pylint",
     "flake8",
-    "pymakehelper",
     "mypy",
 ]
