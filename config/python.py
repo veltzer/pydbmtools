@@ -2,7 +2,6 @@ console_scripts = [
     "pydbmtools=pydbmtools.main:main",
 ]
 dev_requires = [
-    "pyclassifiers",
     "pypitools",
     "Sphinx",
     "black",
@@ -10,6 +9,7 @@ dev_requires = [
 make_requires = [
     "pymakehelper",
     "pydmt",
+    "pyclassifiers",
 ]
 install_requires = [
     "pytconf",

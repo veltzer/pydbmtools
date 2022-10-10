@@ -3,9 +3,7 @@
 pytconf
 pylogconf
 # dev requirements
-pyclassifiers
 pypitools
-pydmt
 Sphinx
 black
 # test requirements
@@ -13,5 +11,4 @@ pytest
 pytest-cov
 pylint
 flake8
-pymakehelper
 mypy
