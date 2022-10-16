@@ -3,7 +3,6 @@ console_scripts = [
 ]
 dev_requires = [
     "pypitools",
-    "Sphinx",
     "black",
 ]
 make_requires = [
