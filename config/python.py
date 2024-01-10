@@ -5,10 +5,13 @@ console_scripts: List[str] = [
     "pydbmtools=pydbmtools.main:main",
 ]
 dev_requires: List[str] = [
+    "pymultigit",
     "pypitools",
     "black",
 ]
-config_requires: List[str] = []
+config_requires: List[str] = [
+    "pyclassifiers",
+]
 install_requires: List[str] = [
     "pytconf",
     "pylogconf",
@@ -16,7 +19,6 @@ install_requires: List[str] = [
 make_requires: List[str] = [
     "pymakehelper",
     "pydmt",
-    "pyclassifiers",
 ]
 test_requires: List[str] = [
     "pytest",
