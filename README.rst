@@ -12,6 +12,6 @@ project website: https://veltzer.github.io/pydbmtools
 
 author: Mark Veltzer
 
-version: 0.0.2
+version: 0.0.3
 
 	Mark Veltzer <mark.veltzer@gmail.com>, Copyright © 2022, 2023, 2024
