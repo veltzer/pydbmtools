@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pydbmtools"
+version = "0.0.3"
+requires-python = ">=3.12"
+authors = [
+	{ name = "Mark Veltzer", email = "mark.veltzer@gmail.com" }
+]
+maintainers = [
+	{ name = "Mark Veltzer", email = "mark.veltzer@gmail.com" }
+]
+description = "Tools for handling .dbm files"
+readme = "README.md"
+license = "MIT"
+keywords=[
+    "dbm",
+    "ndbm",
+    "shelve",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pytconf",
+    "pylogconf",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/veltzer/pydbmtools"
+"Bug Tracker" = "https://github.com/veltzer/pydbmtools/issues"
+"Documentation" = "https://veltzer.github.io/pydbmtools"
+"Download" = "https://pypi.org/project/pydbmtools/"
+"Repository" = "https://github.com/veltzer/pydbmtools"
+
+[project.scripts]
+pydbmtools = "pydbmtools.main:main"
+
+[tool.ruff]
+line-length = 130
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

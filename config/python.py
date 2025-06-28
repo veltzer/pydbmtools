@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pydbmtools=pydbmtools.main:main",
-]
+scripts: dict[str,str] = {
+    "pydbmtools": "pydbmtools.main:main",
+}
 config_requires: list[str] = [
     "pyclassifiers",
 ]

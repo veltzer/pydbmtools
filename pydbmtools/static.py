@@ -1,0 +1,5 @@
+""" version which can be consumed from within the module """
+VERSION_STR = "0.0.3"
+DESCRIPTION = "Tools for handling .dbm files"
+APP_NAME = "pydbmtools"
+LOGGER_NAME = "pydbmtools"
