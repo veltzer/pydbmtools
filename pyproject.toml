@@ -51,3 +51,22 @@ line-length = 130
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pydbmtools"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/pydbmtools/",
+    "README.md",
+    "LICENSE",
+    "pyproject.toml"
+]
+exclude = [
+    ".gitignore",
+    ".github/",
+    "tests/",
+    "docs/",
+    "config/",
+    "*.md",
+]
