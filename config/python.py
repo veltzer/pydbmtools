@@ -2,10 +2,6 @@
 
 import config.shared
 
-scripts: dict[str,str] = {
-    "pydbmtools": "pydbmtools.main:main",
-}
-
 install_requires: list[str] = [
     "pytconf",
     "pylogconf",
@@ -13,3 +9,7 @@ install_requires: list[str] = [
 build_requires: list[str] = config.shared.PBUILD
 test_requires: list[str] = config.shared.PTEST
 requires = install_requires + build_requires + test_requires
+
+scripts: dict[str,str] = {
+    "pydbmtools": "pydbmtools.main:main",
+}
