@@ -32,12 +32,11 @@ version: 0.0.3
 ![PyPI - Downloads](https://img.shields.io/pypi/dw/pydbmtools)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/pydbmtools)
 
-
-
 ## contact me
+
 [mailto](mailto:mark.veltzer@gmail.com)
 ![gitter](https://img.shields.io/gitter/room/veltzer/mark.veltzer)
 ![discord](https://img.shields.io/discord/719336281624281119)
 ![discord](https://img.shields.io/discord/719336282194444302)
 
-Mark Veltzer, Copyright © 2022, 2023, 2024, 2025
+Mark Veltzer, Copyright © 2022, 2023, 2024, 2025, 2026
