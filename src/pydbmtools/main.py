@@ -3,9 +3,11 @@ main entry point to the program
 """
 
 import dbm.gnu
+
 import pylogconf.core
-from pytconf import register_main, config_arg_parse_and_launch, register_endpoint, get_free_args
-from pydbmtools.static import DESCRIPTION, APP_NAME, VERSION_STR
+from pytconf import config_arg_parse_and_launch, get_free_args, register_endpoint, register_main
+
+from pydbmtools.static import APP_NAME, DESCRIPTION, VERSION_STR
 
 
 @register_endpoint(
