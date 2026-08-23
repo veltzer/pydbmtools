@@ -5,3 +5,4 @@ KEYWORDS = {
     "ndbm",
     "shelve",
 }
+PYPI = true
