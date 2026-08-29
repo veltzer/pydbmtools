@@ -36,6 +36,14 @@ dependencies = [
     "pylogconf",
 ]
 
+[dependency-groups]
+dev = [
+    "mypy",
+    "pylint",
+    "pytest",
+    "ruff",
+]
+
 [project.urls]
 "Homepage" = "https://github.com/veltzer/pydbmtools"
 "Bug Tracker" = "https://github.com/veltzer/pydbmtools/issues"
