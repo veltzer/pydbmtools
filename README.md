@@ -5,7 +5,7 @@
 
 description: Tools for handling .dbm files
 
-project website: https://veltzer.github.io/pydbmtools
+project website: <https://veltzer.github.io/pydbmtools>
 
 author: Mark Veltzer
 
